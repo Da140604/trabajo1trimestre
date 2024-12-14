@@ -18,8 +18,9 @@
   -->
     <script>
       
-      var nombre = prompt ("Escribe tu nombre");
-      document.write ("El nombre que has introducido por teclado es: " +nombre);
+      var nombre = prompt ("Escribe tu nombre: ");
+      document.write ("<h3 id='demo1'>El nombre que has introducido por teclado es: " +nombre);
+      document.write ("</h3>");
       var numero1 = prompt ("Escribe tu numero favorito:");
       var numero2 = prompt ("Escribe tu segundo numero favorito:");       
       numero1 = Number(numero1);
@@ -30,6 +31,8 @@
       document.write ("</h3>");
       document.write ("<h3 id='demo1'>El resultado de la multiplicación es:" + numero1*numero2);
       document.write ("</h3>");
+
+
   
       document.write (numero1 - numero2); // Resta
       document.write ("<br>");
