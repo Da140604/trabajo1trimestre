@@ -7,21 +7,17 @@
 
 
 
-    <h3> MI tercera web, ahora SI, usando JAVASCRIPT</h3>
-    <h3> <a href="index.html">SI PULSAS AQUÍ VERÁS MI PRIMERA WEB</a></h3> 
-    <h3> <a href="dos.html">SI PULSAS AQUÍ VERÁS MI SEGUNDA WEB que usa HTML y CSS</a></h3> 
+
     
     <h1> MI tercera web, ahora SI, usando JAVASCRIPT</h1>
     <h2 id="demo1"> <a href="index.html">SI PULSAS AQUÍ VERÁS MI PRIMERA WEB</a></h2>
     <h2 id="demo2"> <a href="dos.html">SI PULSAS AQUÍ VERÁS MI SEGUNDA WEB que usa HTML y CSS</a></h2>
- <!--
-    <h2 id="demo1"> Encabezado usando la hoja de estilos 1</h2>
-    <h2 id="demo2"> Encabezado usando la hoja de estilos 2</h2>
-    <h2 id="demo3"> Encabezado usando la hoja de estilos 3</h2>
+   <!--
+     Arriba están enlazadas mis otras dos páginas 
       
   -->
     <script>
-      /*
+      
       var nombre = prompt ("Escribe tu nombre");
       document.write ("El nombre que has introducido por teclado es: " +nombre);
       var numero1 = prompt ("Escribe tu numero favorito:");
@@ -45,7 +41,7 @@
       document.write ("<br>");
       document.write (numero1 ** numero2); // Exponente
       document.write ("<br><br><br>");
-      */
+      
       var edad = prompt ("¿Cuantos años tienes?");       
       edad = Number(edad);
       if (edad == 18) 
